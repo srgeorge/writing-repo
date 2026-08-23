@@ -1,10 +1,15 @@
 # Writing Repo
 
-Basic git repository for writing projects, includes a very basic `docx` reference for guiding pandoc in converting your markdown to Word format.  If you want something different, write  a few sample pages in a word doc, format properly and apply the styles using the `Format > Style` in Word.  Save it to your reference file, eg. `mss-ref.docx`.  Then delete all the content inside the file; the defined styles will remain.
+Basic git repository for writing projects. 
+
+I put this together for my own use.  Feel free to use it if you need a little kickstart in getting organized to write in Markdown, or don't. You can use any text editor you feel like to write your Markdown files. The only tool you absolutely need is **Pandoc** to convert from Markdown to Word format.
+
+
+There's a very basic `docx` reference for guiding Pandoc in converting your Markdown to Word format. If you want something different, write  a few sample pages in a word doc, format properly and apply the styles using the `Format > Style` panel in Word.  Save it to your reference file, eg. `mss-ref.docx`.  Then delete all the content inside the file; the defined styles will remain.
 
 ## Setup instructions
 
-Download this repository.  Push to your own github or gitlab repo for your project, or just work privately on your own system if you prefer.
+Download this repository.  Push to your own github or gitlab repo for your project, or just work privately on your own system if you prefer.  
 
 ## Writing
 
