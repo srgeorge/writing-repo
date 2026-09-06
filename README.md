@@ -5,7 +5,7 @@ Basic git repository for writing projects.
 I put this together for my own use.  Feel free to use it if you need a little kickstart in getting organized to write in Markdown, or don't. You can use any text editor you feel like to write your Markdown files. The only tool you absolutely need is **Pandoc** to convert from Markdown to Word format.
 
 
-There's a very basic `docx` reference for guiding Pandoc in converting your Markdown to Word format. If you want something different, write  a few sample pages in a word doc, format properly and apply the styles using the `Format > Style` panel in Word.  Save it to your reference file, eg. `mss-ref.docx`.  Then delete all the content inside the file; the defined styles will remain.
+There's a very basic `docx` reference for guiding Pandoc in converting your Markdown to Word format in Modern Manuscript Format. If you want something different, write  a few sample pages in a word doc, format properly and apply the styles using the `Format > Style` panel in Word.  Save it to your reference file, eg. `mss-ref.docx`.  Then delete all the content inside the file; the defined styles will remain.
 
 ## Setup instructions
 
@@ -33,6 +33,9 @@ If you want to convert all markdown files into one large manuscript, you can use
 ```bash
 pandoc src/*.md  -o build/manuscript.docx --reference-doc mss-ref.docx 
 ```
+
+Conversion does not create a title page or formatted address section of your manuscript.  That part you'll need to do manually.
+
 
 ## Be Careful
 
